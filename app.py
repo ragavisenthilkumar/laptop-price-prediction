@@ -10,7 +10,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("/content/laptop_price_model.pkl")
+    return joblib.load("laptop_price_model (2).pkl")
 
 model = load_model()
 
